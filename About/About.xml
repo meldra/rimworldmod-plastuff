@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Plastuff</name>
+    <author>elkyelky</author>
+    <packageId>elkyelky.Plastuff</packageId>
+    <supportedVersions>
+      <li>1.1</li>
+    </supportedVersions>
+    <description>After some research your colonists learn that combining chemfuel with rice creates a durable resin they dubbed plastuff.
+
+Plastuff can be sculpted for art, structures and floors, and crucially when combined with cloth it creates a range of synthetic textiles; a more pleatherable clothing experience for animal lovers.
+
+This mod introduces a pathway for crafting fur-like and leather-like fabrics which don't involve slaughtering creatures, and fills a gap between cloth and expensive non-craftable fabrics. It allows for creating a range of advanced textiles when you only have hydroponic growing available.
+
+Plastuff should be safe to add to an existing game, and shouldn't require other mods but there are a few around that'll help with gaining the necessary resources.
+
+github: https://github.com/meldra/rimworldmod-plastuff
+
+If you want more ways to eschew animal exploitation, check out my other mods on the workshop:
+
+Muesli: https://steamcommunity.com/sharedfiles/filedetails/?id=2175602170
+Beyond Impossible Meals: https://steamcommunity.com/sharedfiles/filedetails/?id=2177980416
+
+If you want to thank me with more than just words, hit up my ko-fi: https://ko-fi.com/elkyelky 
+
+    </description>
+</ModMetaData>

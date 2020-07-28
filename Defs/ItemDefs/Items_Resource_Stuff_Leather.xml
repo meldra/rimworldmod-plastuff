@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Pleather</defName>
+    <label>pleather</label>
+    <description>This is a plant-based faux leather which is made by coating woven fabric in resin for better durability and insulation.</description>
+    <graphicData>
+      <color>(122,132,104)</color>
+    </graphicData>
+    <stuffProps>
+	  <color>(122,132,104)</color>
+      <commonality>0.2</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Pleather_Reinforced</defName>
+    <label>reinforced pleather</label>
+    <description>A thick pleather that has been reinforced with plasteel scales. Tough but doesn't insulate well.</description>
+    <graphicData>
+      <color>(124,131,58)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(124,131,58)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <Beauty>1.6</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>Pleather_Fur</defName>
+    <label>faux fur</label>
+    <description>Pleather with a layer of lush faux fur. Looks and feels great and is very durable. Used for insulation and strength.</description>
+    <graphicData>
+      <color>(119,143,58)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(119,143,58)</color>
+      <commonality>0.05</commonality>
+      <statFactors>
+        <Beauty>1.9</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

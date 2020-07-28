@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>PlastuffTile</defName>
+    <label>plastuff tile</label>
+    <renderPrecedence>242</renderPrecedence>
+    <description>Flooring for that old arcade atmosphere.</description>
+    <texturePath>Terrain/Surfaces/TileStone</texturePath>
+    <color>(122,132,104)</color>
+    <statBases>
+      <Beauty>.5</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+	  <Flammability>1</Flammability>
+      <WorkToBuild>100</WorkToBuild>
+    </statBases>
+    <costList>
+      <Plastuff>2</Plastuff>
+    </costList>
+	<constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+  </TerrainDef>
+  
+</Defs>

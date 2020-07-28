@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   
+    <ThingDef ParentName="ResourceBase">
+    <defName>Plastuff</defName>
+    <label>Plastuff Resin</label>
+    <description>A plastuff resin brick for producing structures and other items.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneBlocks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(119,143,0)</color>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>0.4</Mass> 
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stuffProps>
+      <stuffAdjective>plastuff</stuffAdjective>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>0</commonality>
+      <color>(119,143,0)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <appearance>Bricks</appearance>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>1</Flammability>
+        <WorkToMake>0.7</WorkToMake>
+        <WorkToBuild>0.7</WorkToBuild>
+        <DoorOpenSpeed>1.2</DoorOpenSpeed>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </ThingDef>
+	
+	  
+  <ThingDef ParentName="WoolBase">
+    <defName>Nylon</defName>
+    <label>nylon thread</label>
+    <description>Nylon thread. A basic synthetic thread.</description>
+    <graphicData>
+      <color>(119,143,0)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+	  <stuffAdjective>nylon</stuffAdjective>
+      <color>(119,143,0)</color>
+      <commonality>0.24</commonality>
+    </stuffProps>
+  </ThingDef>
+  
+
+</Defs>

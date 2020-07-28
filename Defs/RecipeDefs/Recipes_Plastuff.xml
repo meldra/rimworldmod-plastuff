@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>ProcessPlastuff</defName>
+    <label>Create plastuff from chemfuel and rice</label>
+    <description>Produces a plastic resin.</description>
+    <jobString>Creating plastuff resin blocks.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<effectWorking>CutStone</effectWorking>
+	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Chemfuel</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			  <li>RawRice</li>
+		  </thingDefs>
+		</filter>
+		<count>75</count>
+	  </li>
+	</ingredients>
+    <products>
+      <Plastuff>20</Plastuff>
+    </products>
+	<recipeUsers>
+		<li>BiofuelRefinery</li>
+	</recipeUsers>
+	<researchPrerequisite>Plastuff</researchPrerequisite>
+	<skillRequirements>
+		<Crafting>4</Crafting>
+		<Intellectual>4</Intellectual>
+	</skillRequirements>
+  </RecipeDef>
+  
+  
+    <RecipeDef>
+    <defName>Make_Pleather</defName>
+    <label>make pleather</label>
+    <description>Make pleather from cloth and plastuff.</description>
+    <jobString>Making pleather.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workAmount>700</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+	<researchPrerequisite>Plastuff</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plastuff</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Pleather>50</Pleather>
+    </products>
+    <workSkill>Crafting</workSkill>
+	<skillRequirements>
+	  <Crafting>4</Crafting>
+	</skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Make_Pleather_Reinforced</defName>
+    <label>make reinforced pleather</label>
+    <description>Make tough pleather from cloth, plasteel and plastuff.</description>
+    <jobString>Making pleather.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workAmount>900</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+	<researchPrerequisite>Plastuff</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plastuff</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Pleather_Reinforced>50</Pleather_Reinforced>
+    </products>
+    <workSkill>Crafting</workSkill>
+	<skillRequirements>
+	  <Crafting>5</Crafting>
+	</skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Make_Pleather_Fur</defName>
+    <label>make faux fur</label>
+    <description>Create faux fur from cloth, plasteel and plastuff.</description>
+    <jobString>Making faux fur.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workAmount>900</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+	<researchPrerequisite>Plastuff</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plastuff</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Nylon</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Pleather_Fur>50</Pleather_Fur>
+    </products>
+    <workSkill>Crafting</workSkill>
+	<skillRequirements>
+	  <Crafting>5</Crafting>
+	</skillRequirements>
+  </RecipeDef>
+  
+    <RecipeDef>
+    <defName>Make_Nylon</defName>
+    <label>make nylon</label>
+    <description>Make nylon spools from plastuff.</description>
+    <jobString>Making nylon.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>500</workAmount>
+	<researchPrerequisite>Plastuff</researchPrerequisite>
+	<recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plastuff</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Nylon>10</Nylon>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+	
+</Defs>
