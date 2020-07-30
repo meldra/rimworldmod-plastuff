@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+ 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_TribalA"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_Parka"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+	
+ 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_Pants"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+	
+ 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_BasicShirt"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+	
+ 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_CollarShirt"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+	
+ 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_Duster"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+	
+ 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_Jacket"]/stuffCategories</xpath>
+		<value>
+			<li>Pleathery</li>
+		</value>
+	</Operation>
+  
+</Patch>
